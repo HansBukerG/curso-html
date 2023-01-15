@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario en Html5</title>
+    <link rel="stylesheet" href="/css/Estilos.css">
+</head>
+<body>
+    <h1 id="titulo-pagina" ><a href="index.html" class="boton">Pagina principal</a></h1>
+    <div>
+      <ul class="barraMenuNavegacion"> 
+        <li ><a href="/index.html" class="botonMenuNavegacion"> HOME </a></li>
+        <li ><a href="/PortalCerroAbajo.html" class="botonMenuNavegacion"> Cerro Abajo</a></li>
+        <li ><a href="/QuienSoy.html" class="botonMenuNavegacion"> Quien Soy </a></li>
+      </ul>
+    </div>
+    
+    <form action="miServidor" method="get" target="_blank" autocomplete="on">
+        <fieldset>
+            <legend>Formulario de compra:</legend>
+            <p>
+                <input type="hidden" id="nombreEquipo" value="ComputadorHans">
+                <label for="IdPersona">ID:</label>  <input type="text" id="IdPersona" name="IdPersona" readonly="true" disabled="true" value="+56"/>
+            </p>
+            <p>
+                <label for="nombre">Nombre:</label>  <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre:"/>
+                <label for="apellido">Apellido:</label>  <input type="text" id="apellido" name="apellido" placeholder="Ïngrese su apellido:"/>
+            </p>
+            <p><label for="ECivil">Estado civil:</label>  <input type="text" id="ECivil" name="ECivil" placeholder="Ingrese su estado civil:"/></p>
+            <p><label for="direccion">Comuna de residencia:</label>  
+                <select name="comunas" id="comunas">
+                    <option value="chiguayante">Chiguayante</option>
+                    <option value="concepcion" selected="true">Concepcion</option>
+                    <option value="sanPedro">San Pedro</option>
+                </select>
+                
+            <p><label for="direccion">Direccion:</label>  <input type="text" id="direccion" name="direccion" placeholder="Ingrese su dirección aquí" required="true"/></p>
+            <p><label for="email">Email:</label><input type="email" name="email" id="email" placeholder="Ingrese su email"/></p>
+            <p><label for="edad">Edad:</label><input type="number" name="edad" id="edad" placeholder="Ingrese su edad" step="any"/></p>
+            <p>
+                <label>Género:</label> 
+                <input type="radio" name="genero" id="femenino"> <label for="femenino">Femenino</label> 
+                <input type="radio" name="genero" id="masculino"> <label for="masculino">Masculino</label> 
+            </p>
+            <p>
+                <label>Método de pago:</label>
+                <input type="radio" name="metodoPago" id="debito"> <label for="debito">Debito</label>
+                <input type="radio" name="metodoPago" id="credito"> <label for="credito">Crédito</label>
+                <input type="radio" name="metodoPago" id="mpago"> <label for="mpago">Mercado Pago</label>
+            </p>
+            <p>
+                <label for="retiroTienda">Retiro en tienda:</label>
+                <input type="radio" name="retiroTienda" id="R_si"> <label for="R_si">Si</label>
+                <input type="radio" name="retiroTienda" id="R_no"> <label for="R_no">No</label>
+            </p>
+            <p>
+                <label for="comentarios">Comentario:</label>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Ingrese su comentario(Opcional):"></textarea>    
+            </p>
+            <input type="submit" id ="enviarFormulario" value="Enviar"/>
+            <input type="submit" value="Enviar sin validar" formnovalidate="formnovalidate">
+            <input type="reset" value="Restablecer formulario"/>
+
+        </fieldset>
+    </form>
+</body>
+</html>

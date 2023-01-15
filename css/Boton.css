@@ -1,0 +1,24 @@
+/*a:link, a:visited{
+    background-color: #219EBC;
+    color: #023047;
+    padding: 10px 20px;
+}
+a:hover, a:active{
+    background-color: #8ECAE6;
+    color: #023047;
+    padding: 10px 20px;
+}*/
+
+
+
+.boton:link, .boton:visited{
+    text-decoration: none;
+    background-color: #219EBC;
+    color: #023047;
+    padding: 15px 10px;;
+}
+.boton:hover, .boton:active{
+    background-color: #8ECAE6;
+    color: #023047;
+    padding: 15px 10px;;
+}

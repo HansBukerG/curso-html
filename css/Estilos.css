@@ -1,0 +1,94 @@
+body{
+    margin: 20px;
+    background-color: #023047;
+}
+h1{
+    color: #8ECAE6;
+    font-size: large;
+    text-align: center;
+    margin: 15px;
+}
+h2{
+    color:#8ECAE6;
+
+    font-size: large;
+}
+p{
+    color: #8ECAE6;
+    font-size: medium;
+}
+/*
+ul{
+    
+    list-style-type: none;
+    background-color: #a8dadc;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #f1faee;
+}*/
+
+.barraMenuNavegacion{
+    list-style-type: none;
+    background-color: #a8dadc;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.botonMenuNavegacion{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+
+.botonMenuNavegacion:hover{
+    background-color: #f1faee;
+}
+
+/*
+a:link{
+    color: #8ECAE6;
+    font-style: italic;
+    text-decoration: none;
+}
+a:visited{
+    color: #8ECAE6;
+}
+/*Esto es para cuando se pone el mouse encima de un link*/
+/*
+a:hover{
+    color: #FFB703;
+    text-decoration: underline;
+}
+a:active{
+    color: #FB8500;
+}*/
+/*Clase de CSS*/
+.cuadroTexto{
+    display: inline-block;
+    margin: 10px;
+    background-color: greenyellow;
+    border: 5px solid black;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.cuadroTexto:hover{
+    background-color: red;
+}
+
+#titulo-pagina{
+    color: #8ECAE6;
+}

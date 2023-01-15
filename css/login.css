@@ -1,0 +1,52 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#023e7d,#0353a4)
+}
+
+.contenedor{
+    margin: 5% auto; /*Este comando fija el contenedor en una posición de la pantalla*/
+    width: 400px;   /*Con este comando seteamos el tamaño que tendrá el cuadro de texto*/
+    padding: 30px;  /*Con este comando se amplia el tamaño de la caja para que se pueda visualizar mejor la informacion*/
+    background: rgba(0, 0, 0, .5); /* Se le da transparencia al cuadro de login*/
+    border-radius: 10px; /* Con este comando se le da un borde redondeado a la caja del login */
+}
+
+.fuente_label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f4f0bb;
+}
+
+.fuente_textbox{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a98467;
+}
+
+.caja_texto{
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, .2);
+}
+
+.boton_submit{
+    padding: 5px;
+    width: 200px;
+    background: rgba(28, 25, 151, 0.2);
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+.elemento{
+    padding: 5px 0px;
+}
+
+.centrado{
+    text-align: center;
+}

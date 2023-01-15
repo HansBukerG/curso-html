@@ -1,0 +1,17 @@
+ol{
+    color: #8ECAE6;
+    list-style-type: none;
+    counter-reset: contador;
+}
+
+ol li{
+    counter-increment: contador;
+}
+
+ol li:before{
+    content: 'Persona ' counter(contador) ' ';
+}
+
+ol li:after{
+    content: '.';
+}

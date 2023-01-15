@@ -1,0 +1,15 @@
+a{
+    background-color: red;
+    padding: 10px;
+    border: 15px solid powderblue;
+    margin:auto 30px ; /*Margen es la separación entre cada elemento*/
+    /*
+        El orden de seteo de los elementos de un margen es el siguiente
+            top
+            right
+            bottom
+            left
+        ejemplo:
+        margin: 30px 20px 50px 10px;
+    */
+}

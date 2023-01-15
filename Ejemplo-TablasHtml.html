@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Trocchi' rel='stylesheet'>
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/Estilos.css"/>
+    <link rel="stylesheet" href="css/MenuPrincipal.css">
+    <link rel="stylesheet" href="/css/Boton.css">
+    <link rel="stylesheet" href="/css/Tabla.css">
+</head>
+<body>
+    <h1><a href="index.html">Pagina principal</a></h1>
+    <div>
+        <ul> 
+          <li><a href="/index.html"> HOME </a></li>
+          <li><a href="/PortalCerroAbajo.html"> Cerro Abajo</a></li>
+          <li><a href="/QuienSoy.html"> Quien Soy </a></li>
+        </ul>
+    </div>
+    <div>
+        <h2>Ejemplo de creacion de Tabla</h2>
+        <p>En esta pestaña estoy mostrando un ejemplo de como creamos una tabla <br>
+        y como almacenamos información en esta</p>
+    </div>
+    <div>
+        <!--Estilos definidos en Estilos.css-->
+        <table>
+            <caption>Listado de personas</caption>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Direccion</th>
+            </tr>
+            <tr>
+                <td>Hans</td>
+                <td>Buker Gutierrez</td>
+                <td>El maiten 2339, Chiguayante, Concepcion</td>
+            </tr>
+            <tr>
+                <td>Henkel</td>
+                <td>Buker Gutierrez</td>
+                <td>El maiten 2339, Chiguayante, Concepcion</td>
+            </tr>
+            <tr>
+                <td>Norma</td>
+                <td>Buker</td>
+                <td>Direccion desconocida, Providencia, Santiago</td>
+            </tr>
+            <tr>
+                <td>Jorge</td>
+                <td>Buker</td>
+                <td>El maiten 2339, Chiguayante, Concepcion</td>
+            </tr>
+            <tr>
+                <td>Yanny</td>
+                <td>Gutiérrez</td>
+                <td>El maiten 2339, Chiguayante, Concepcion</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h2>Tabla con colspan y rowspan</h2>
+        <h2>colspan</h2>
+        <p>Este comando sirve para unificar 2 columnas de datos</p>
+    </div>
+    <div>
+        <!--Estilos definidos en Estilos.css-->
+        <table>
+            <tr>
+                <th style="text-align:center;" colspan="2">Nombre y apellido</th>
+                <th>Direccion</th>
+            </tr>
+            <tr>
+                <td>Hans</td>
+                <td>Buker Gutierrez</td>
+                <td >El maiten 2339, Chiguayante, Concepcion</td>
+            </tr>
+            <tr>
+                <td>Henkel</td>
+                <td>Buker Gutierrez</td>
+                <td>El maiten 2339, Chiguayante, Concepcion</td>
+            </tr>
+            <tr>
+                <td>Norma</td>
+                <td>Buker</td>
+                <td>Direccion desconocida, Providencia, Santiago</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h2>rowspan</h2>
+        <p>Este comando sirve para unificar 2 filas de datos</p>
+    </div>
+    <div>
+        <!--Estilos definidos en Estilos.css-->
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Direccion</th>
+            </tr>
+            <tr>
+                <td>Hans</td>
+                <td>Buker Gutierrez</td>
+                <td rowspan="2">El maiten 2339, Chiguayante, Concepcion</td>
+            </tr>
+            <tr>
+                <td>Henkel</td>
+                <td>Buker Gutierrez</td>
+            </tr>
+            <tr>
+                <td>Norma</td>
+                <td>Buker</td>
+                <td>Direccion desconocida, Providencia, Santiago</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
